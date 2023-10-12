@@ -1,0 +1,22 @@
+{
+  "name": "expresso",
+  "version": "1.0.0",
+  "description": "test express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "moi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "1.4.6",
+    "debug": "4.3.4",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http-errors": "^2.0.0",
+    "mongoose": "^7.6.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  }
+}
