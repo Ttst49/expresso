@@ -29,6 +29,16 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(cookieParser())
 app.use(session({ secret:"your secret key"}))
 
+
+app.get('/', function (req, res){
+    res.cookie(name, 'value', {maxAge: 360000});})
+
+app.get('/clear_cookie_foo', function(req, res){
+    res.clearCookie('foo');
+    res.send('cookie foo cleared');
+});
+
+
 let users = []
 
 
